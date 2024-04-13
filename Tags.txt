@@ -1,0 +1,28 @@
+What distinguishes normal HTML elements from semantic HTML elements?
+NORMAL HTML ELEMENTS:
+These are generic elements used to define the structure and layout of a web page.
+ Examples include <div>, <span>, <p>, <h1> to <h6>, <ul>, <ol>, etc. They don't convey any specific meaning about their content
+SEMANTIC HTML ELEMENTS:
+These elements carry meaning about the content they contain, making the HTML code more descriptive and understandable 
+for both developers and machines (like search engines or accessibility tools). Examples include <header>, <nav>, 
+<article>, <section>, <aside>, <footer>, <figure>, <figcaption>, etc. Semantic elements help improve accessibility, 
+search engine optimization (SEO), and maintainability of the code.
+
+
+ Explain the disparity between closing tags and self-closing tags in HTML.
+ CLOSING TAGS:
+ These are HTML elements that require both an opening tag and a closing tag to enclose content. 
+ For example:<html></html>
+SELF CLOSING TAGS:
+These are HTML elements that require both an opening tag and a closing tag to enclose content. 
+ For example:     <img src="example.jpg" alt="Example Image"/>
+
+
+What distinguishes inline elements from block elements in HTML?
+INLINE ELEMENTS:
+Inline elements do not start on a new line and only take up as much width as necessary. 
+Examples include <span>, <a>, <strong>, <em>, <img>, <input>, <br>, etc.
+BLOCK ELEMENTS:
+Block-level elements always start on a new line and take up the full width available. 
+Examples include <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <table>,
+ <form>, etc. Block elements can contain both inline and other block-level elements.
